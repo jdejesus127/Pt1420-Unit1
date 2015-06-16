@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script type="text/javascript">
+            var finalmessage = "No more bottles of beer on the wall!";
+            // Runs through 99 and prints out the number of beers
+            function ninetyninebottles () {
+                for(var i = 99; i >= 0; i=i-1){
+                    if(i === 0) {
+                        document.write(finalmessage);
+                    } else {
+                        document.write(i + " bottles of beer<br>");
+                    }
+                }
+            }
+    </script>
+    
+</head>
+<body>
+    <a href="javascript:ninetyninebottles()">Print 99 bootles of beer</a>
+</body>
+</html>
